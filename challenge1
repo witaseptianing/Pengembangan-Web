@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wita Septia Miarjo - Web Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">Wita Miarjo</div>
+    <ul class="nav-right">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <div class="hero-container">
+    <div class="profile-card">
+      <img src="img/profile.jpeg" alt="Wita Septia Miarjo" class="profile-img" />
+      <div class="profile-text">
+        <h1>Hi, saya <span class="highlight">Wita Septia Miarjo</span></h1>
+        <h2>Saya adalah <span class="highlight">Web Developer</span></h2>
+        <p>
+          Saya Wita Septia Miarjo, seorang Web Developer yang percaya bahwa setiap baris kode adalah seni.
+          Dengan kombinasi kreativitas dan logika, saya membangun solusi digital yang tidak hanya berfungsi,
+          tapi juga meninggalkan kesan.
+        </p>
+        <div class="buttons">
+          <button>Hire me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
