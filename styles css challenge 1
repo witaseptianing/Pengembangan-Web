@@ -1,0 +1,76 @@
+/* Mengatur background image seluruh halaman */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Container tengah */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* transparansi */
+}
+
+/* Kartu profil */
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 30px;
+  gap: 30px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Gambar profil */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid #00bfff;
+}
+
+/* Teks profil */
+.profile-text h1, h2 {
+  margin: 0;
+}
+
+.profile-text .highlight {
+  color: #00bfff;
+}
+
+.profile-text p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Tombol */
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #009acb;
+}
