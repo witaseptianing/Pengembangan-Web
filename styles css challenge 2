@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kartu Profil - Wita Septia Miarjo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="card-container">
+    <div class="profile-card">
+      <img src="img/profile.jpeg" alt="Wita Septia Miarjo" class="profile-pic" />
+      <h2>Wita Septia Miarjo</h2>
+      <p class="title">Web Developer</p>
+      <p class="desc">Saya membangun website kreatif dan profesional untuk membantu bisnis berkembang di dunia digital.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="mailto:wita@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
